@@ -1,0 +1,140 @@
+*{
+ padding: 0;
+ margin: 0;   
+ box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #341f97;
+}
+.welcome{
+    width: 400px;
+}
+
+.welcome_form input{
+    margin-bottom:15px;
+    padding: 15px 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.welcome_form button:hover{
+    background-color: wheat;
+    transform: translateY(-5px);
+}
+
+.welcome_form button{
+    padding: 15px 0;
+    font-size: 20px;
+    background-color: transparent;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    transition: 0.4s all;
+}
+
+.welcome_form input:focus, 
+.welcome_form button:focus{
+    outline: none;
+}
+.welcome_form input, .welcome_form button{
+    display: block;
+    width: 100%;
+}
+
+.welcome_form a{
+    text-decoration: none;
+}
+
+.quiz{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 60px auto;
+    border-radius: 15px;
+}
+
+.quiz_header{
+    background-color: white;
+    border-radius: 15px 15px 0 0;
+    display :flex ;
+    justify-content: space-between;
+}
+
+.quiz_body{
+    background-color: #dff0f1;
+    border-radius: 0 0  15px 15px;
+    padding: 30px;
+}
+
+.quiz_user{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.quiz_timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 10px;
+    background-color: teal;
+}
+ 
+.option_group{
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.option{
+    background-color: white;
+    padding: 15px 20px;
+    width: 400px;
+    margin-bottom: 15px;
+    border-radius: 100px;
+    border: 2px solid transparent;
+}
+
+.option:hover{
+    border: 2px solid black;
+}
+
+.nextButton{
+    background-color:#341f97;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+}
+
+.active{
+    background-color: #341f97;
+    color: white;
+}
+
+.userName, .userPoints{
+    display: block;
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
